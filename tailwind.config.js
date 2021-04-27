@@ -2,7 +2,11 @@ module.exports = {
   purge: ['./**/*.html'],
   darkMode: false,
   theme: {
-    extend: {}
+    extend: {
+    screens: {
+        xs: '375px'
+      }
+    }
   },
   variants: {
     extend: {}
